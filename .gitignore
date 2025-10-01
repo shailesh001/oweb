@@ -1,0 +1,50 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+*.pkl
+*.h5
+*.env
+*.env.*
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Package managers
+pip-wheel-metadata/
+pip-log.txt
+
+# Testing & coverage
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+*.crt
+*.token
